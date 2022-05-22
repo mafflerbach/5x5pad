@@ -1,13 +1,13 @@
 file_format: "1"
-id: holymoly
-name: holymoly
+id: 5x5pad
+name: 5x5pad
 type: shield
-url: https://github.com/MakotoKurauchi/holymoly
+url: https://github.com/MakotoKurauchi/5x5pad
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
   - display
 siblings:
-  - holymoly_left
-  - holymoly_right
+  - 5x5pad_left
+  - 5x5pad_right

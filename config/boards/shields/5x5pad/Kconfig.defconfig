@@ -1,17 +1,17 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_HOLYMOLY_LEFT
+if SHIELD_5x5pad_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "holymoly"
+    default "5x5pad"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_HOLYMOLY_LEFT || SHIELD_HOLYMOLY_RIGHT
+if SHIELD_5x5pad_LEFT || SHIELD_5x5pad_RIGHT
 
 config ZMK_SPLIT
     default y

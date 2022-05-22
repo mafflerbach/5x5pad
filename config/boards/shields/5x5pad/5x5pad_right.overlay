@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "holymoly.dtsi"
+#include "5x5pad.dtsi"
 
 &default_transform {
 	col-offset = <7>;
@@ -17,7 +17,5 @@
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
         , <&pro_micro 19 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 20 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
 };
